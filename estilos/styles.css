@@ -19,7 +19,12 @@
     color: white;
     margin: 2rem;
     margin-left: 3rem;
+    
 }
+.header i:hover {
+    transform: scale(1.1);
+}
+
 
 /*                menu                */
 
@@ -39,6 +44,7 @@
 
 .menu li:hover {
     background-color: rgb(13, 27, 42);
+    transform: scale(1.1);
 }
 
 .menu a {
@@ -226,6 +232,7 @@
 
 .form input[type=submit]:hover {
     background-color: rgb(65, 90, 119);
+    
 }
 
 /*          MEDIA QUERY      */
