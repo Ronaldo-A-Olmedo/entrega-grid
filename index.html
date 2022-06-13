@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,18 +23,18 @@
 <body>
     <div class="grillaIndex">
         <div class="header">
-            <a href="./index.html"><i class="fa-solid fa-socks"></i> </a>
+            <div class="icono">
+                <a href="./index.html"><i class="fa-solid fa-socks"></i> </a>
+            </div>
             <ul class="menu">
                 <li class="separador"><a href="./index.html">INICIO</a></li>
-                <li class="separador"><a href="./pages/laEmpresa.html">LA EMPRESA</a></li>
-                <li class="separador"><a href="./pages/productos.html">PRODUCTOS</a></li>
-                <li class="separador"><a href="./pages/galeria.html">GALERIA</a></li>
                 <li class="separador"><a href="./pages/contacto.html">CONTACTO</a></li>
             </ul>
         </div>
 
-        <div class="main">
+        <div class="mainI">
             <div class="contenedor">
+                <h1 class="wow animate__animated animate__backInUp">Best Sox S.A</h1>
                 <div class="contenido">
                     
                     <h1>Best Sox S.A</h1>
@@ -47,29 +49,31 @@
                 <div class="imagenInfo">
                     <img src="./images/fondo.jpg" alt="imagen fondo">
                 </div>
+
             </div>
         </div>
 
         <div class="aside">
-            <a href="./pages/productos.html">
-                <h2 class="coleccion"> Coleccion </h2>
-            </a>
-            <div class="ejem1">
-                <p>Sports Px3</p>
-                <div class="img1">
-                    <img src="./images/ejem1.jpg" alt="imagen Sports Px3">
-                </div>
+
+            <div class="coleccionLink">
+                <a href="./pages/productos.html">
+                    <h2 class="coleccion"  > Coleccion </h2>
+                </a>
             </div>
-            <div class="ejem2">
-                <p>Women Sunset Sneakers Px2</p>
+            <div class="ejemplos" >
+
+                <div class="img1" >
+                    <p class="wow animate__animated animate__flipInX">Sports Px3</p>
+                    <img src="./images/ejem1.jpg" alt="imagen Sports Px3" class="wow animate__animated animate__fadeInLeft">
+                </div>
+
                 <div class="img2">
-                    <img src="./images/ejem2.jpg" alt="imagen Women Sunset Sneakers Px2">
+                    <p class="wow animate__animated animate__flipInX">Women Sunset Sneakers Px2</p>
+                    <img src="./images/ejem2.jpg" alt="imagen Women Sunset Sneakers Px2" class="wow animate__animated animate__fadeInLeft">
                 </div>
-            </div>
-            <div class="ejem3">
-                <p>Unisex Sneakers Half Terry Px3</p>
                 <div class="img3">
-                    <img src="./images/ejem3.jpg" alt="imagen Unisex Sneakers Half Terry Px3">
+                    <p  class="wow animate__animated animate__flipInX">Unisex Sneakers Half Terry Px3</p>
+                    <img src="./images/ejem3.jpg" alt="imagen Unisex Sneakers Half Terry Px3" class="wow animate__animated animate__fadeInLeft">
                 </div>
             </div>
         </div>
