@@ -235,38 +235,14 @@
 .grilla {
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 0.5fr 6fr 0.2fr;
+    grid-template-rows: 1fr 6fr 0.2fr;
     grid-template-areas:
         "header header "
         "mainC mainC "
         "footer footer "
 }
 
-/*  HEADER */
-.header {
-    grid-area: header;
-    background-color: rgb(27, 38, 59);
-    display: flex;
-    
 
-
-}
-
-.header i {
-    font-size: 3rem;
-    color: white;
-    margin: 2rem;
-
-}
-
-.header i:hover {
-    transform: scale(1.1);
-}
-
-.header i:active {
-    color: rgb(13, 27, 42);
-
-}
 
 /* menu */
 
