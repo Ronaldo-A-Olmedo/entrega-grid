@@ -319,8 +319,7 @@
     height: 5vh;
     text-align: center;
     border-radius: 15px 5px 15px 15px;
-    font-family: 'Josefin Sans', sans-serif;
-
+    
 
 }
 
@@ -330,8 +329,6 @@
     text-align: center;
     border-radius: 15px 5px 15px 15px;
     max-width: 20rem;
-    font-family: 'Josefin Sans', sans-serif;
-
 
 }
 
@@ -339,7 +336,6 @@
     width: 19.5rem;
     margin: 2px;
     color: rgb(13, 27, 42);
-    font-family: 'Josefin Sans', sans-serif;
 
 }
 
